@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 240 33% 98%;
+        --foreground: 270 49% 29%;
+        --card: 0 0% 100%;
+        --card-foreground: 270 49% 29%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 270 49% 29%;
+        --primary: 270 49% 29%;
+        --primary-foreground: 210 20% 98%;
+        --secondary: 267 36% 83%;
+        --secondary-foreground: 270 49% 29%;
+        --muted: 270 9% 70%;
+        --muted-foreground: 270 4% 55%;
+        --accent: 270 9% 70%;
+        --accent-foreground: 270 49% 29%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 20% 98%;
+        --border: 270 9% 90%;
+        --input: 270 9% 90%;
+        --ring: 270 49% 29%;
+        --radius: 0.5rem;
+    }
+
+    .dark {
+        --background: 270 49% 10%;
+        --foreground: 210 20% 98%;
+        --card: 270 49% 15%;
+        --card-foreground: 210 20% 98%;
+        --popover: 270 49% 15%;
+        --popover-foreground: 210 20% 98%;
+        --primary: 270 49% 50%;
+        --primary-foreground: 210 20% 98%;
+        --secondary: 270 49% 25%;
+        --secondary-foreground: 210 20% 98%;
+        --muted: 270 49% 20%;
+        --muted-foreground: 217.9 10.6% 64.9%;
+        --accent: 270 49% 20%;
+        --accent-foreground: 210 20% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 20% 98%;
+        --border: 270 49% 20%;
+        --input: 270 49% 20%;
+        --ring: 270 49% 50%;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+@font-face {
+    font-family: 'VerseHub';
+    src: url('/fonts/inter.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@layer components {
+    .container-xl {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+
+    .section-title {
+        @apply text-4xl md:text-5xl font-bold text-primary;
+    }
+
+    .section-subtitle {
+        @apply text-xl text-muted-foreground uppercase font-semibold tracking-wide;
+    }
+
+    .gradient-bg {
+        background: linear-gradient(135deg, #f4f9fb 0%, #c0aae2 100%);
+    }
+
+    .service-card {
+        @apply bg-white p-6 rounded-lg shadow-sm;
+    }
+
+    .service-title {
+        @apply text-xl font-bold text-primary mb-2;
+    }
+
+    .product-logo {
+        @apply bg-white p-4 flex items-center justify-center h-[120px];
+    }
+}
