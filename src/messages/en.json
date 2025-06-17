@@ -1,0 +1,206 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "products": "Products",
+    "offices": "Offices",
+    "jobs": "Jobs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bring digital technology into individual lives and businesses.",
+    "cta": "START YOUR PROJECT"
+  },
+  "services": {
+    "title": "WHAT WE PROVIDE",
+    "about": {
+      "title": "ABOUT US",
+      "description1": "VerseHub is a technology company that specializes in providing and implementing innovative solutions and consultancy services to businesses.",
+      "description2": "Our core team comprises a group of highly skilled professionals with extensive experience in researching and developing the latest cutting-edge technologies."
+    },
+    "whatWeDo": {
+      "title": "What we do"
+    },
+    "whyVerseHub": {
+      "title": "why versehub",
+      "experience": {
+        "title": "EXPERIENCED AND PROFESSIONAL TEAM",
+        "years": "10+ years",
+        "team": "Team profile: Amazon, Yelp, FPT Software, Tiki, Vingroup, BIDV, LaoVietBank,...",
+        "items": {
+          "game": {
+            "title": "Game 2D & 3D"
+          },
+          "web": {
+            "title": "Web & Mobile Application"
+          },
+          "banking": {
+            "title": "Consultancy & IT Outsourcing"
+          },
+          "ecommerce": {
+            "title": "E-Commerce"
+          },
+          "web3": {
+            "title": "VR, AR, Web3 & Blockchain"
+          }
+        }
+      },
+      "customization": {
+        "title": "DEMAND-DRIVEN CUSTOMIZATION",
+        "description": "The delivery timeframe can be tailored to meet the specific requirements and requests based on individual needs and preferences."
+      },
+      "cost": {
+        "title": "REASONABLE COST",
+        "description": "At an affordable cost, our services offer significant cost savings to our customers by reducing their personnel and operational expenses by up to 70%"
+      }
+    },
+    "team": {
+      "title": "Our team",
+      "description": "Our end-to-end IT services and innovation empower global businesses to accelerate their digital transformation journey",
+      "stats": {
+        "developers": "Developers",
+        "analysts": "Business Analysts",
+        "designers": "UI/UX Designers",
+        "product": "Products Owner",
+        "architects": "System architects experts"
+      }
+    },
+    "howto": {
+  "title": "Partner with Us",
+  "items": {
+    "requirement": {
+      "title": "Receive Requirements"
+    },
+    "analysis": {
+      "title": "Analysis & Consulting"
+    },
+    "proposal": {
+      "title": "Propose Solution"
+    },
+    "contract": {
+      "title": "Sign Contract"
+    },
+    "project": {
+      "title": "Project Kickoff"
+    }
+  }
+},
+    "caseStudies": {
+      "title": "Our case studies",
+      "items": {
+        "befitter": {
+          "title": "beFITTER",
+          "description": "Fitnessfi and Socialfi app - M2E"
+        },
+        "nextverse": {
+          "title": "NextVerse",
+          "description": "Metaverse"
+        },
+        "penpal": {
+          "title": "Penpal",
+          "description": "NFT Collection"
+        },
+        "cowitup": {
+          "title": "Cow It Up",
+          "description": "Casual Game"
+        },
+        "more": {
+          "title": "And many more",
+          "description": "..."
+        }
+      }
+    },
+    "contact": {
+      "title": "contact us",
+      "form": {
+        "name": "Your name",
+        "email": "Your email",
+        "message": "Tell us how we can help",
+        "submit": "Send Message"
+      },
+      "info": {
+        "location": "location",
+        "locationValue": "Hanoi, Vietnam",
+        "mail": "mail",
+        "mailValue": "info@versehub.io",
+        "phone": "phone",
+        "phoneValue": "(+84) 866 174 689"
+      }
+    },
+    "items": {
+      "outsourcing": {
+        "title": "Software outsourcing service",
+        "description": "Our software solution is tailored specifically to your demand, which is applicable for both traditional and blockchain practices.",
+        "link": "View our Portfolio"
+      },
+      "gamify": {
+        "title": "Gamify & Metaverse",
+        "description": "Unlock new engagement with gamification in banking and loyalty programs. Combining metaverse experiences with real-world utility, we bring immersive, creative ecosystems that drive customer interaction and long-term value."
+      },
+      "web3": {
+        "title": "Decentralized Financial Solution & Web3",
+        "description": "All-in-one crypto platform for communication, asset management, and idea sharing. We actively support Web3 innovation to make decentralized tech more practical and impactful."
+      },
+      "ai": {
+        "title": "AI Integration & Customization",
+        "description": "Smart, customizable AI to automate tasks, deliver insights, and enhance digital experiences across all of your ecosystem."
+      },
+      "enterprise": {
+        "title": "Enterprise Systems Advisory & Optimization",
+        "description": "We help organizations modernize large-scale systems to improve efficiency, scalability, and resilience. Our advisory services deliver expert guidance to streamline operations, maximize throughput, reduce costs, and enhance system security."
+      }
+    }
+  },
+  "products": {
+    "title": "OUR PRODUCTS"
+  },
+  "offices": {
+    "title": "OUR OFFICES"
+  },
+  "join": {
+    "title": "JOIN OUR JOURNEY",
+    "description": "Excellent products need excellent people. Our pioneering team is looking for new members to join the fleet.",
+    "cta": "APPLY NOW"
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Tell us how we can help",
+      "submit": "Send Message"
+    },
+    "info": {
+      "location": "location",
+      "mail": "mail",
+      "phone": "phone"
+    }
+  },
+  "jobs": {
+    "title": "Join Our Team",
+    "description": "Excellent products need excellent people. Our pioneering team is looking for new members to join the fleet.",
+    "positions": {
+      "blockchain": {
+        "title": "Blockchain Developer",
+        "type": "Full-time",
+        "location": "Hanoi, Vietnam",
+        "description": "We are looking for a Blockchain Developer with experience in Solidity and smart contract development."
+      },
+      "frontend": {
+        "title": "Frontend Developer",
+        "type": "Full-time",
+        "location": "Remote",
+        "description": "Seeking a Frontend Developer with React experience to join our growing team."
+      },
+      "web3": {
+        "title": "Web3 UX Designer",
+        "type": "Full-time",
+        "location": "Hanoi, Vietnam",
+        "description": "Join our team as a UX Designer focused on creating intuitive interfaces for Web3 applications."
+      }
+    },
+    "noPosition": "Don't see a position that fits your skills?",
+    "contactUs": "Contact Us",
+    "apply": "Apply Now"
+  }
+} 

@@ -7,32 +7,32 @@ import { motion } from "framer-motion";
 const products = [
     {
         name: "BeFitter",
-        logo: "https://ext.same-assets.com/422046658/3755775889.png",
+        logo: "/images/products/befitter.png",
         link: "https://befitter.io/",
     },
     {
         name: "NextVerse",
-        logo: "https://ext.same-assets.com/422046658/3202872385.png",
+        logo: "/images/products/nextverse.png",
         link: "http://nextverse.org",
     },
     {
         name: "CowItUp",
-        logo: "https://ext.same-assets.com/422046658/2748080977.png",
+        logo: "/images/products/cowitup.png",
         link: "/cowItUp",
     },
     {
         name: "VerseHub Network Scan",
-        logo: "https://ext.same-assets.com/422046658/2139886464.png",
+        logo: "/images/products/network-scan.png",
         link: "https://blockscout.versehub.io/",
     },
     {
         name: "VerseHub Network Bridge",
-        logo: "https://ext.same-assets.com/422046658/3619162735.png",
+        logo: "/images/products/network-bridge.png",
         link: "http://Bridge.versehub.io",
     },
     {
         name: "Penpal NFT Collection",
-        logo: "https://ext.same-assets.com/422046658/3009222505.png",
+        logo: "/images/products/penpal.png",
         link: "http://penpalnft.com",
     },
 ];

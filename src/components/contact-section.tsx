@@ -6,8 +6,10 @@ import { Input } from "@/components/ui/input";
 import { FormEvent, useState } from "react";
 import { ScrollReveal } from "./animations/scroll-reveal";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function ContactSection() {
+    const t = useTranslations("contact");
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -46,7 +48,7 @@ export default function ContactSection() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5 }}
                         >
-                            CONTACT US
+                            {t("title")}
                         </motion.h2>
                     </ScrollReveal>
 
@@ -60,7 +62,7 @@ export default function ContactSection() {
                         >
                             <Input
                                 type="text"
-                                placeholder="Your name"
+                                placeholder={t("form.name")}
                                 value={formData.name}
                                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                 className="h-12 rounded-md"
@@ -76,7 +78,7 @@ export default function ContactSection() {
                         >
                             <Input
                                 type="email"
-                                placeholder="Your email"
+                                placeholder={t("form.email")}
                                 value={formData.email}
                                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                 className="h-12 rounded-md"
@@ -90,12 +92,12 @@ export default function ContactSection() {
                             viewport={{ once: true }}
                             custom={3}
                         >
-              <textarea
-                  placeholder="Tell us how we can help"
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="w-full h-32 px-4 py-3 rounded-md border border-input bg-background resize-none focus:outline-none focus:ring-2 focus:ring-ring"
-              />
+                            <textarea
+                                placeholder={t("form.message")}
+                                value={formData.message}
+                                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                                className="w-full h-32 px-4 py-3 rounded-md border border-input bg-background resize-none focus:outline-none focus:ring-2 focus:ring-ring"
+                            />
                         </motion.div>
 
                         <motion.div
@@ -104,15 +106,9 @@ export default function ContactSection() {
                             whileInView="visible"
                             viewport={{ once: true }}
                             custom={4}
-                            whileHover={{ scale: 1.03 }}
-                            whileTap={{ scale: 0.97 }}
                         >
-                            <Button
-                                type="submit"
-                                size="lg"
-                                className="w-full bg-primary hover:bg-primary/90 text-white"
-                            >
-                                SEND MESSAGES
+                            <Button type="submit" className="w-full">
+                                {t("form.submit")}
                             </Button>
                         </motion.div>
                     </form>

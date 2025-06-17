@@ -1,0 +1,206 @@
+{
+  "navigation": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "products": "Sản phẩm",
+    "offices": "Văn phòng",
+    "jobs": "Tuyển dụng",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "title": "Đưa công nghệ số vào cuộc sống cá nhân và doanh nghiệp.",
+    "cta": "BẮT ĐẦU DỰ ÁN"
+  },
+  "services": {
+    "title": "CHÚNG TÔI CUNG CẤP",
+    "about": {
+      "title": "VỀ CHÚNG TÔI",
+      "description1": "VerseHub là công ty công nghệ chuyên cung cấp và triển khai các giải pháp sáng tạo cùng dịch vụ tư vấn cho doanh nghiệp.",
+      "description2": "Đội ngũ cốt lõi của chúng tôi bao gồm nhóm chuyên gia có tay nghề cao với kinh nghiệm phong phú trong nghiên cứu và phát triển các công nghệ tiên tiến nhất."
+    },
+    "whatWeDo": {
+      "title": "Chúng tôi làm gì"
+    },
+    "whyVerseHub": {
+      "title": "Tại sao chọn VerseHub",
+      "experience": {
+        "title": "ĐỘI NGŨ CHUYÊN NGHIỆP VÀ GIÀU KINH NGHIỆM",
+        "years": "10+ năm",
+        "team": "Hồ sơ đội ngũ: Amazon, Yelp, FPT Software, Tiki, Vingroup, BIDV, LaoVietBank,...",
+        "items": {
+          "game": {
+            "title": "Game 2D & 3D"
+          },
+          "web": {
+            "title": "Ứng dụng Web & Mobile"
+          },
+          "banking": {
+            "title": "Tư vấn Ngân hàng & Thuê ngoài CNTT"
+          },
+          "ecommerce": {
+            "title": "Thương mại điện tử"
+          },
+          "web3": {
+            "title": "VR, AR, Web3 & Blockchain"
+          }
+        }
+      },
+      "customization": {
+        "title": "TÙY CHỈNH THEO YÊU CẦU",
+        "description": "Thời gian triển khai có thể được điều chỉnh để đáp ứng các yêu cầu và yêu cầu cụ thể dựa trên nhu cầu và sở thích cá nhân."
+      },
+      "cost": {
+        "title": "CHI PHÍ HỢP LÝ",
+        "description": "Với chi phí phải chăng, dịch vụ của chúng tôi giúp khách hàng tiết kiệm đáng kể chi phí bằng cách giảm chi phí nhân sự và vận hành lên đến 70%"
+      }
+    },
+    "team": {
+      "title": "Đội ngũ của chúng tôi",
+      "description": "Dịch vụ CNTT toàn diện và đổi mới của chúng tôi giúp các doanh nghiệp toàn cầu đẩy nhanh quá trình chuyển đổi số",
+      "stats": {
+        "developers": "Lập trình viên",
+        "analysts": "Phân tích nghiệp vụ",
+        "designers": "Thiết kế UI/UX",
+        "product": "Product Owner",
+        "architects": "Chuyên gia kiến trúc hệ thống"
+      }
+    }, 
+       "howto": {
+      "title": "Hợp tác với chúng tôi",
+      "items": {
+        "requirement": {
+          "title": "Nhận yêu cầu"
+        },
+        "analysis": {
+          "title": "Phân tích & tư vấn"
+        },
+        "proposal": {
+          "title": "Đề xuất phương án"
+        },
+        "contract": {
+          "title": "Ký hợp đồng"
+        },
+        "project": {
+          "title": "Bắt đầu dự án"
+        }
+      }
+    },
+    "caseStudies": {
+      "title": "Dự án tiêu biểu",
+      "items": {
+        "befitter": {
+          "title": "beFITTER",
+          "description": "Ứng dụng Fitnessfi và Socialfi - M2E"
+        },
+        "nextverse": {
+          "title": "NextVerse",
+          "description": "Metaverse"
+        },
+        "penpal": {
+          "title": "Penpal",
+          "description": "Bộ sưu tập NFT"
+        },
+        "cowitup": {
+          "title": "Cow It Up",
+          "description": "Game Casual"
+        },
+        "more": {
+          "title": "Và nhiều hơn nữa",
+          "description": "..."
+        }
+      }
+    },
+    "contact": {
+      "title": "Liên hệ với chúng tôi",
+      "form": {
+        "name": "Tên của bạn",
+        "email": "Email của bạn",
+        "message": "Cho chúng tôi biết chúng tôi có thể giúp gì",
+        "submit": "Gửi tin nhắn"
+      },
+      "info": {
+        "location": "Địa chỉ",
+        "locationValue": "Hà Nội, Việt Nam",
+        "mail": "Email",
+        "mailValue": "info@versehub.io",
+        "phone": "Điện thoại",
+        "phoneValue": "(+84) 866 174 689"
+      }
+    },
+    "items": {
+      "outsourcing": {
+        "title": "Dịch vụ xây dựng phần mềm",
+        "description": "Giải pháp phần mềm của chúng tôi được thiết kế riêng theo yêu cầu của bạn, áp dụng cho cả thực hành truyền thống và blockchain.",
+        "link": "Xem Portfolio"
+      },
+      "gamify": {
+        "title": "Gamify & Metaverse",
+        "description": "Mở khóa sự tương tác mới với gamification trong ngân hàng và chương trình khách hàng thân thiết. Kết hợp trải nghiệm metaverse với tiện ích thực tế, chúng tôi mang đến các hệ sinh thái sáng tạo, hấp dẫn thúc đẩy tương tác khách hàng và giá trị lâu dài."
+      },
+      "web3": {
+        "title": "Giải pháp Tài chính Phi tập trung & Web3",
+        "description": "Nền tảng crypto toàn diện cho giao tiếp, quản lý tài sản và chia sẻ ý tưởng. Chúng tôi tích cực hỗ trợ đổi mới Web3 để làm cho công nghệ phi tập trung thực tế và hiệu quả hơn."
+      },
+      "ai": {
+        "title": "Tích hợp & Tùy chỉnh AI",
+        "description": "AI thông minh, có thể tùy chỉnh để tự động hóa tác vụ, cung cấp thông tin chi tiết và nâng cao trải nghiệm số trên toàn bộ hệ sinh thái của bạn."
+      },
+      "enterprise": {
+        "title": "Tư vấn & Tối ưu hóa Hệ thống Doanh nghiệp",
+        "description": "Chúng tôi giúp các tổ chức hiện đại hóa các hệ thống quy mô lớn để cải thiện hiệu quả, khả năng mở rộng và khả năng phục hồi. Dịch vụ tư vấn của chúng tôi cung cấp hướng dẫn chuyên môn để tối ưu hóa hoạt động, tối đa hóa thông lượng, giảm chi phí và tăng cường bảo mật hệ thống."
+      }
+    }
+  },
+  "products": {
+    "title": "SẢN PHẨM CỦA CHÚNG TÔI"
+  },
+  "offices": {
+    "title": "VĂN PHÒNG CỦA CHÚNG TÔI"
+  },
+  "join": {
+    "title": "THAM GIA HÀNH TRÌNH CỦA CHÚNG TÔI",
+    "description": "Sản phẩm xuất sắc cần những con người xuất sắc. Đội ngũ tiên phong của chúng tôi đang tìm kiếm thành viên mới để tham gia.",
+    "cta": "ỨNG TUYỂN NGAY"
+  },
+  "contact": {
+    "title": "LIÊN HỆ VỚI CHÚNG TÔI",
+    "form": {
+      "name": "Tên của bạn",
+      "email": "Email của bạn",
+      "message": "Cho chúng tôi biết chúng tôi có thể giúp gì",
+      "submit": "Gửi tin nhắn"
+    },
+    "info": {
+      "location": "Địa chỉ",
+      "mail": "Email",
+      "phone": "Điện thoại"
+    }
+  },
+  "jobs": {
+    "title": "Tham Gia Đội Ngũ Chúng Tôi",
+    "description": "Sản phẩm xuất sắc cần những con người xuất sắc. Đội ngũ tiên phong của chúng tôi đang tìm kiếm thành viên mới để tham gia.",
+    "positions": {
+      "blockchain": {
+        "title": "Lập Trình Viên Blockchain",
+        "type": "Toàn thời gian",
+        "location": "Hà Nội, Việt Nam",
+        "description": "Chúng tôi đang tìm kiếm Lập Trình Viên Blockchain có kinh nghiệm về Solidity và phát triển smart contract."
+      },
+      "frontend": {
+        "title": "Lập Trình Viên Frontend",
+        "type": "Toàn thời gian",
+        "location": "Từ xa",
+        "description": "Tìm kiếm Lập Trình Viên Frontend có kinh nghiệm về React để tham gia đội ngũ đang phát triển của chúng tôi."
+      },
+      "web3": {
+        "title": "Thiết Kế UX Web3",
+        "type": "Toàn thời gian",
+        "location": "Hà Nội, Việt Nam",
+        "description": "Tham gia đội ngũ của chúng tôi với vai trò Thiết Kế UX tập trung vào việc tạo giao diện trực quan cho các ứng dụng Web3."
+      }
+    },
+    "noPosition": "Không thấy vị trí phù hợp với kỹ năng của bạn?",
+    "contactUs": "Liên Hệ Với Chúng Tôi",
+    "apply": "Ứng Tuyển Ngay"
+  }
+} 
