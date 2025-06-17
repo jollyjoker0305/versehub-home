@@ -111,7 +111,7 @@
       }
     },
     "contact": {
-      "title": "contact us",
+      "title": "Contact us",
       "form": {
         "name": "Your name",
         "email": "Your email",
@@ -119,11 +119,11 @@
         "submit": "Send Message"
       },
       "info": {
-        "location": "location",
+        "location": "Location",
         "locationValue": "Hanoi, Vietnam",
-        "mail": "mail",
+        "mail": "Email",
         "mailValue": "info@versehub.io",
-        "phone": "phone",
+        "phone": "Phone",
         "phoneValue": "(+84) 866 174 689"
       }
     },
@@ -171,9 +171,9 @@
       "submit": "Send Message"
     },
     "info": {
-      "location": "location",
-      "mail": "mail",
-      "phone": "phone"
+      "location": "Location",
+      "mail": "Mail",
+      "phone": "Phone"
     }
   },
   "jobs": {
