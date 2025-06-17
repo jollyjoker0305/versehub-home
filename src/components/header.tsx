@@ -113,7 +113,7 @@ export default function Header() {
                                     className={`text-base font-medium transition-colors py-2 ${
                                         pathname === item.href
                                             ? "text-primary"
-                                            : "text-gray-600 hover:text-primary"
+                                            : "text-gray-700 hover:text-primary"
                                     }`}
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
