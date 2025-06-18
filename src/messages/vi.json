@@ -128,27 +128,27 @@
       }
     },
     "items": {
-      "outsourcing": {
-        "title": "Dịch vụ xây dựng phần mềm",
-        "description": "Giải pháp phần mềm của chúng tôi được thiết kế riêng theo yêu cầu của bạn, áp dụng cho cả thực hành truyền thống và blockchain.",
-        "link": "Xem Portfolio"
-      },
-      "gamify": {
-        "title": "Gamify & Metaverse",
-        "description": "Mở khóa sự tương tác mới với gamification trong ngân hàng và chương trình khách hàng thân thiết. Kết hợp trải nghiệm metaverse với tiện ích thực tế, chúng tôi mang đến các hệ sinh thái sáng tạo, hấp dẫn thúc đẩy tương tác khách hàng và giá trị lâu dài."
-      },
-      "web3": {
-        "title": "Giải pháp Tài chính Phi tập trung & Web3",
-        "description": "Nền tảng crypto toàn diện cho giao tiếp, quản lý tài sản và chia sẻ ý tưởng. Chúng tôi tích cực hỗ trợ đổi mới Web3 để làm cho công nghệ phi tập trung thực tế và hiệu quả hơn."
-      },
-      "ai": {
-        "title": "Tích hợp & Tùy chỉnh AI",
-        "description": "AI thông minh, có thể tùy chỉnh để tự động hóa tác vụ, cung cấp thông tin chi tiết và nâng cao trải nghiệm số trên toàn bộ hệ sinh thái của bạn."
-      },
-      "enterprise": {
-        "title": "Tư vấn & Tối ưu hóa Hệ thống Doanh nghiệp",
-        "description": "Chúng tôi giúp các tổ chức hiện đại hóa các hệ thống quy mô lớn để cải thiện hiệu quả, khả năng mở rộng và khả năng phục hồi. Dịch vụ tư vấn của chúng tôi cung cấp hướng dẫn chuyên môn để tối ưu hóa hoạt động, tối đa hóa thông lượng, giảm chi phí và tăng cường bảo mật hệ thống."
-      }
+          "outsourcing": {
+            "title": "Dịch vụ xây dựng phần mềm",
+            "description": "Chúng tôi cung cấp giải pháp phần mềm thiết kế theo yêu cầu, dễ dàng thích ứng với nhiều mô hình hoạt động và công nghệ khác nhau.",
+            "link": "Xem Portfolio"
+          },
+          "gamify": {
+            "title": "Gamify & Metaverse",
+            "description": "Tăng cường trải nghiệm và gắn kết người dùng thông qua trò chơi hóa và không gian số. Chúng tôi kết hợp gamification và metaverse với các tiện ích thực tế để xây dựng hệ sinh thái số sống động, tạo ra giá trị lâu dài cho doanh nghiệp."
+          },
+          "web3": {
+            "title": "Giải pháp Tài chính Phi tập trung & Web3",
+            "description": "Chúng tôi phát triển nền tảng số hỗ trợ giao tiếp, quản lý tài sản và chia sẻ ý tưởng trong môi trường Web3. Các giải pháp này giúp doanh nghiệp tiếp cận công nghệ phi tập trung một cách hiệu quả, an toàn và thực tiễn."
+          },
+          "ai": {
+            "title": "Tích hợp & Tùy chỉnh AI",
+            "description": "Chúng tôi cung cấp các giải pháp AI linh hoạt, dễ tích hợp, giúp tự động hóa quy trình, khai thác dữ liệu và nâng cao trải nghiệm người dùng trên toàn bộ hệ thống của bạn."
+          },
+          "enterprise": {
+            "title": "Tư vấn & Tối ưu hóa Hệ thống Doanh nghiệp",
+            "description": "Chúng tôi hỗ trợ doanh nghiệp hiện đại hóa hệ thống, nâng cao hiệu suất và khả năng thích ứng. Dịch vụ tư vấn mang đến giải pháp tối ưu vận hành, giảm chi phí, tăng tính bảo mật và khả năng mở rộng linh hoạt."
+          }
     }
   },
   "products": {
