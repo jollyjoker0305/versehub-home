@@ -6,10 +6,11 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
+import { useLanguage } from "@/components/language-provider";
 
 export default function JobsPage() {
     const t = useTranslations('jobs');
-
+const {language} = useLanguage();
     const jobs = [
         {
             title: t('positions.blockchain.title'),
@@ -73,7 +74,7 @@ export default function JobsPage() {
                             <p className="text-muted-foreground mb-4">
                                 {t('noPosition')}
                             </p>
-                            <Link href="#contact">
+                            <Link href={"/"+language + "/#contact"}>
                                 <Button variant="outline">{t('contactUs')}</Button>
                             </Link>
                         </div>

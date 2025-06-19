@@ -13,7 +13,7 @@ import { useLanguage } from "./language-provider";
 export default function Header() {
     const { language, setLanguage } = useLanguage();
 
-    const [isScrolled, setIsScrolled] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(true);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const pathname = usePathname();
     const t = useTranslations("navigation");

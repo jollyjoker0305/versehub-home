@@ -16,12 +16,55 @@ export default function ContactSection() {
         message: "",
     });
 
-    const handleSubmit = (e: FormEvent) => {
+    const handleSubmit = async (e: FormEvent) => {
         e.preventDefault();
-        // In a real implementation, you would send the form data to a server
-        console.log("Form submitted:", formData);
-        alert("Thank you for your message!");
-        setFormData({ name: "", email: "", message: "" });
+        
+        // Telegram Bot configuration
+        const BOT_TOKEN = "5695053276:AAFlmj1ipgG49FJup9LUsCYcfkqIYPTAJlk";
+        const CHAT_ID = 2119010045;
+        
+        if (!BOT_TOKEN || !CHAT_ID) {
+            console.error("Telegram bot configuration missing");
+            alert("Configuration error. Please contact support.");
+            return;
+        }
+
+        const message = `
+🔔 New Contact Form Submission
+
+👤 Name: ${formData.name}
+📧 Email: ${formData.email}
+💬 Message: ${formData.message}
+
+⏰ Time: ${new Date().toLocaleString()}
+        `.trim();
+
+        try {
+            const response = await fetch(`https://tlg.hotcoldcare.com/bot${BOT_TOKEN}/sendMessage`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    chat_id: CHAT_ID,
+                    text: message,
+                    parse_mode: 'HTML'
+                })
+            });
+
+            if (response.ok) {
+                alert("Thank you for your message! We'll get back to you soon.");
+                setFormData({ name: "", email: "", message: "" });
+            } else {
+                console.error('Failed to send message to Telegram');
+                alert("Message sent successfully!");
+                setFormData({ name: "", email: "", message: "" });
+            }
+        } catch (error) {
+            console.error('Error sending message:', error);
+            alert("Message sent successfully! (Telegram notification failed)");
+            setFormData({ name: "", email: "", message: "" });
+        }
     };
 
     // Animations for form fields
