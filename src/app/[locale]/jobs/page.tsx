@@ -65,7 +65,10 @@ const {language} = useLanguage();
                                     <p className="mb-6 text-muted-foreground">
                                         {job.description}
                                     </p>
+                                    <Link href={"/"+language + "/#contact"}>
+
                                     <Button size="sm">{t('apply')}</Button>
+                                    </Link>
                                 </div>
                             ))}
                         </div>
