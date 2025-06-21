@@ -33,20 +33,27 @@ export default function ServicesSection() {
         <div className="bg-white py-20" id="services">
             <Container maxWidth="xl">
                 <div className="flex flex-col md:flex-row">
-                    <ScrollReveal direction="left" className="md:w-1/3 mb-10 md:mb-0">
-                        <div>
-                            <motion.h3
-                                className="section-subtitle"
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ duration: 0.5 }}
-                            >
-                                {t("title")}
-                            </motion.h3>
-                        </div>
-                    </ScrollReveal>
-
-                    <div className="md:w-2/3 space-y-8">
+                <ScrollReveal direction="up">
+                    <div className="mb-12 mr-8">
+                        <motion.h3
+                            className="section-subtitle whitespace-nowrap"
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}
+                        >
+                         {t("our")}
+                        </motion.h3>
+                        <motion.h2
+                            className="whitespace-nowrap section-title text-5xl md:text-6xl font-bold text-primary"
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}
+                        >
+                             {t("service")}
+                            </motion.h2>
+                    </div>
+                </ScrollReveal>
+                    <div className="md:w-3/3 space-y-12">
                         {services.map((service, index) => (
                             <ScrollReveal
                                 key={index}

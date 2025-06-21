@@ -39,7 +39,7 @@ export default function Footer() {
                                 alt="Phone"
                                 className="w-5 h-5"
                             />
-                            <p className="text-foreground/70">(+84) 866 174 689</p>
+                            <p className="text-foreground/70">(+84) 879 371 105</p>
                         </div>
                     </div>
 

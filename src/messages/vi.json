@@ -12,6 +12,8 @@
     "cta": "BẮT ĐẦU DỰ ÁN"
   },
   "services": {
+    "service": "DỊCH VỤ",
+    "our": "Chúng tôi cung cấp",
     "title": "CHÚNG TÔI CUNG CẤP",
     "about": {
       "title": "VỀ CHÚNG TÔI",
@@ -124,7 +126,7 @@
         "mail": "Email",
         "mailValue": "info@versehub.io",
         "phone": "Điện thoại",
-        "phoneValue": "(+84) 866 174 689"
+        "phoneValue": "(+84) 879 371 105"
       }
     },
     "items": {

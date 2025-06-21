@@ -13,6 +13,8 @@
   },
   "services": {
     "title": "WHAT WE PROVIDE",
+    "service": "SERVICES",
+    "our": "OUR",
     "about": {
       "title": "ABOUT US",
       "description1": "VerseHub is a technology company that specializes in providing and implementing innovative solutions and consultancy services to businesses.",
@@ -124,7 +126,7 @@
         "mail": "Email",
         "mailValue": "info@versehub.io",
         "phone": "Phone",
-        "phoneValue": "(+84) 866 174 689"
+        "phoneValue": "(+84) 879 371 105"
       }
     },
     "items": {
