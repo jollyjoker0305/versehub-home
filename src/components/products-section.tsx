@@ -35,6 +35,19 @@ const products = [
         logo: "/images/products/penpal.png",
         link: "http://penpalnft.com",
     },
+    {
+        name: "Game Tết 2024 for TPBank",
+        logo: "/images/products/rongvut.png",
+        link: "https://www.youtube.com/watch?v=_Gyzpl7Kp6o",
+    },    {
+        name: "Vòng quay độc đắc for TPBank",
+        logo: "/images/products/vqdd.png",
+        link: "https://www.facebook.com/reel/543267211754552",
+    },    {
+        name: "Game Tết 2025 for TPBank",
+        logo: "/images/products/ransanqua.png",
+        link: "https://tpb.vn/wps/portal/vni/khuyen-mai/detail-promotions/!ut/p/z1/jVLRUsIwEPyaPpa7thQ6vhUQFLGiUKF5YVIMpdImJQ2t_L1BZxwFETNzM5dk93YvFyAwB8JplSZUpYLTTO8j0lq0B1bTttAKHibXFvr9kf_YHXRsHCPMjgG3XfQDp98KXZ2Mm0D-w8czy8dL_GeIOhBVbn23T07NHKPJ31ozIEd6ntPTFR4H02AYOL2RewI47feSSKRNts-adC2YVSmrIeRC5noCE4i6Xw3eIAwvvYgeWfq63RIfyFJwxd4UzFURU75ZvFBFF4UUuTiM18CSmjWLy1Sxj_zbTaWDHTgpTwxMaM5MxZRpo-2aknKz1LHd0YObJBPx50_xeex4CRDJVkwy2dhJfbxWqiivDDQwa6zoksVCbBpLkRv4G2UtSm33JxKKPAz53tw8efXUu1fe3smSd_ecsA4!/dz/d5/L2dBISEvZ0FBIS9nQSEh/?fbclid=IwY2xjawLGD5dleHRuA2FlbQIxMABicmlkETFaQ1dYZjV0WERwbWZpVHBVAR7GTztyLqqlHehwqodNKNWFlwZ5WGqdWLCQYeTqhJEoXz1K67n04-GTl_QNtA_aem_jVWaqyeeC0i1TrxcHlBw6g",
+    },
 ];
 
 export default function ProductsSection() {
