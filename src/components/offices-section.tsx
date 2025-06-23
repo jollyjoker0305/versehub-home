@@ -8,12 +8,12 @@ const offices = [
     {
         country: "Hanoi Headquarter",
         status: "Vietnam",
-        image: "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='150' viewBox='0 0 300 150'%3E%3Cpath fill='%23c0aae2' d='M20,20 L280,20 L280,130 L20,130 Z'%3E%3C/path%3E%3Cpath fill='none' stroke='%236f42c1' stroke-width='1' d='M20,20 L50,10 L310,10 L280,20 M280,130 L310,120 L310,10 M20,130 L50,120 L310,120'%3E%3C/path%3E%3Cpath fill='none' stroke='%236f42c1' stroke-width='1' d='M50,40 L100,40 L100,90 L50,90 Z M125,40 L175,40 L175,90 L125,90 Z M200,40 L250,40 L250,90 L200,90 Z'%3E%3C/path%3E%3Ccircle fill='none' stroke='%236f42c1' stroke-width='1' cx='150' cy='30' r='8'%3E%3C/circle%3E%3C/svg%3E",
+        image: "/images/vn.png",
     },
     {
         country: "HCM city branch",
         status: "Vietnam",
-        image: "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='150' viewBox='0 0 300 150'%3E%3Cpath fill='%23c0aae2' d='M20,20 L280,20 L280,130 L20,130 Z'%3E%3C/path%3E%3Cpath fill='none' stroke='%236f42c1' stroke-width='1' d='M120,130 L120,50 L180,50 L180,130 M140,50 L140,30 L160,30 L160,50'%3E%3C/path%3E%3Cpath fill='none' stroke='%236f42c1' stroke-width='1' d='M190,130 L190,80 L230,40 L270,80 L270,130'%3E%3C/path%3E%3Cpath fill='none' stroke='%236f42c1' stroke-width='1' d='M30,130 L30,60 L100,60 L100,130 M40,80 L90,80 M40,100 L90,100'%3E%3C/path%3E%3Crect fill='none' stroke='%236f42c1' stroke-width='1' x='230' y='100' width='10' height='10'%3E%3C/rect%3E%3C/svg%3E",
+        image: "/images/vn.png",
     },
 ];
 
