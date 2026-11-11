@@ -12,36 +12,36 @@ type Product = {
 };
 
 const products: Product[] = [
-    {
-        name: "BeFitter",
-        logo: "/images/products/befitter.png",
-        link: "https://befitter.io/",
-    },
-    {
-        name: "NextVerse",
-        logo: "/images/products/nextverse.png",
-        link: "http://nextverse.org",
-    },
+    // {
+    //     name: "BeFitter",
+    //     logo: "/images/products/befitter.png",
+    //     link: "https://befitter.io/",
+    // },
+    // {
+    //     name: "NextVerse",
+    //     logo: "/images/products/nextverse.png",
+    //     link: "http://nextverse.org",
+    // },
     {
         name: "CowItUp",
         logo: "/images/products/cowitup.png",
         link: "/cowItUp",
     },
-    {
-        name: "VerseHub Network Scan",
-        logo: "/images/products/network-scan.png",
-        link: "https://blockscout.versehub.io/",
-    },
-    {
-        name: "VerseHub Network Bridge",
-        logo: "/images/products/network-bridge.png",
-        link: "http://Bridge.versehub.io",
-    },
-    {
-        name: "Penpal NFT Collection",
-        logo: "/images/products/penpal.png",
-        link: "http://penpalnft.com",
-    },
+    // {
+    //     name: "VerseHub Network Scan",
+    //     logo: "/images/products/network-scan.png",
+    //     link: "https://blockscout.versehub.io/",
+    // },
+    // {
+    //     name: "VerseHub Network Bridge",
+    //     logo: "/images/products/network-bridge.png",
+    //     link: "http://Bridge.versehub.io",
+    // },
+    // {
+    //     name: "Penpal NFT Collection",
+    //     logo: "/images/products/penpal.png",
+    //     link: "http://penpalnft.com",
+    // },
     {
         name: "Game Tết 2024 for TPBank",
         logo: "/images/products/rongvut.png",
