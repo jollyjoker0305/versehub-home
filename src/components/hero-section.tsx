@@ -6,6 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ScrollReveal } from "./animations/scroll-reveal";
 import { HoverScale } from "./animations/hover-scale";
+import { ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function HeroSection() {
@@ -55,11 +56,7 @@ export default function HeroSection() {
               ease: "easeInOut"
             }}
           >
-            <img
-              src="https://ext.same-assets.com/422046658/93490173.png"
-              alt="Scroll down"
-              className="w-8 h-12"
-            />
+            <ChevronDown className="w-8 h-8 text-foreground" aria-label="Scroll down" />
           </motion.div>
         </div>
       </Container>

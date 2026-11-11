@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Facebook, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import { Container } from "./ui/container";
 
 export default function Footer() {
@@ -8,55 +9,35 @@ export default function Footer() {
                 <div className="flex flex-col space-y-8">
                     <div className="flex items-center">
                         <img
-                            src="https://ext.same-assets.com/422046658/919375268.png"
+                            src="/logo_header.png"
                             alt="VerseHub Logo"
-                            className="h-14 w-auto cursor-pointer"
+                            className="h-14 w-auto"
                         />
                     </div>
 
-                    <div className="flex flex-col md:flex-row space-y-4 md:space-y-0">
+                    <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 text-foreground/70">
                         <div className="flex items-center space-x-2 md:mr-8">
-                            <img
-                                src="https://ext.same-assets.com/422046658/1045802843.svg"
-                                alt="Location"
-                                className="w-5 h-5"
-                            />
-                            <p className="text-foreground/70">Hanoi, Vietnam</p>
+                            <MapPin className="w-5 h-5 shrink-0" aria-hidden="true" />
+                            <p>Hanoi, Vietnam</p>
                         </div>
 
                         <div className="flex items-center space-x-2 md:mr-8">
-                            <img
-                                src="https://ext.same-assets.com/422046658/890538655.svg"
-                                alt="Email"
-                                className="w-5 h-5"
-                            />
-                            <p className="text-foreground/70">info@versehub.io</p>
+                            <Mail className="w-5 h-5 shrink-0" aria-hidden="true" />
+                            <p>info@versehub.io</p>
                         </div>
 
                         <div className="flex items-center space-x-2">
-                            <img
-                                src="https://ext.same-assets.com/422046658/1295800748.svg"
-                                alt="Phone"
-                                className="w-5 h-5"
-                            />
-                            <p className="text-foreground/70">(+84) 942 556 542</p>
+                            <Phone className="w-5 h-5 shrink-0" aria-hidden="true" />
+                            <p>(+84) 942 556 542</p>
                         </div>
                     </div>
 
-                    <div className="flex space-x-4">
-                        <Link href="https://www.facebook.com/Versehub.io/" target="_blank" rel="noreferrer">
-                            <img
-                                src="https://ext.same-assets.com/422046658/2029834703.svg"
-                                alt="Facebook"
-                                className="w-6 h-6"
-                            />
+                    <div className="flex space-x-4 text-foreground/70">
+                        <Link href="https://www.facebook.com/Versehub.io/" target="_blank" rel="noreferrer" aria-label="Facebook">
+                            <Facebook className="w-6 h-6" />
                         </Link>
-                        <Link href="https://www.linkedin.com/company/versehub/" target="_blank" rel="noreferrer">
-                            <img
-                                src="https://ext.same-assets.com/422046658/3257518115.svg"
-                                alt="LinkedIn"
-                                className="w-6 h-6"
-                            />
+                        <Link href="https://www.linkedin.com/company/versehub/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                            <Linkedin className="w-6 h-6" />
                         </Link>
                     </div>
 
