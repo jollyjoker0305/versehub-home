@@ -4,7 +4,6 @@
     "services": "Services",
     "products": "Products",
     "offices": "Offices",
-    "jobs": "Jobs",
     "contact": "Contact"
   },
   "hero": {
@@ -126,7 +125,7 @@
         "mail": "Email",
         "mailValue": "info@versehub.io",
         "phone": "Phone",
-        "phoneValue": "(+84) 879 371 105"
+        "phoneValue": "(+84) 942 556 542"
       }
     },
     "items": {
@@ -159,11 +158,6 @@
   "offices": {
     "title": "OUR OFFICES"
   },
-  "join": {
-    "title": "JOIN OUR JOURNEY",
-    "description": "Excellent products need excellent people. Our pioneering team is looking for new members to join the fleet.",
-    "cta": "APPLY NOW"
-  },
   "contact": {
     "title": "CONTACT US",
     "form": {
@@ -177,32 +171,5 @@
       "mail": "Mail",
       "phone": "Phone"
     }
-  },
-  "jobs": {
-    "title": "Join Our Team",
-    "description": "Excellent products need excellent people. Our pioneering team is looking for new members to join the fleet.",
-    "positions": {
-      "blockchain": {
-        "title": "Blockchain Developer",
-        "type": "Full-time",
-        "location": "Hanoi, Vietnam",
-        "description": "We are looking for a Blockchain Developer with experience in Solidity and smart contract development."
-      },
-      "frontend": {
-        "title": "Frontend Developer",
-        "type": "Full-time",
-        "location": "Remote",
-        "description": "Seeking a Frontend Developer with React experience to join our growing team."
-      },
-      "web3": {
-        "title": "Web3 UX Designer",
-        "type": "Full-time",
-        "location": "Hanoi, Vietnam",
-        "description": "Join our team as a UX Designer focused on creating intuitive interfaces for Web3 applications."
-      }
-    },
-    "noPosition": "Don't see a position that fits your skills?",
-    "contactUs": "Contact Us",
-    "apply": "Apply Now"
   }
 } 

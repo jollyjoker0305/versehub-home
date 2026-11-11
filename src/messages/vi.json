@@ -4,7 +4,6 @@
     "services": "Dịch vụ",
     "products": "Sản phẩm",
     "offices": "Văn phòng",
-    "jobs": "Tuyển dụng",
     "contact": "Liên hệ"
   },
   "hero": {
@@ -126,7 +125,7 @@
         "mail": "Email",
         "mailValue": "info@versehub.io",
         "phone": "Điện thoại",
-        "phoneValue": "(+84) 879 371 105"
+        "phoneValue": "(+84) 942 556 542"
       }
     },
     "items": {
@@ -159,11 +158,6 @@
   "offices": {
     "title": "VĂN PHÒNG CỦA CHÚNG TÔI"
   },
-  "join": {
-    "title": "THAM GIA HÀNH TRÌNH CỦA CHÚNG TÔI",
-    "description": "Sản phẩm xuất sắc cần những con người xuất sắc. Đội ngũ tiên phong của chúng tôi đang tìm kiếm thành viên mới để tham gia.",
-    "cta": "ỨNG TUYỂN NGAY"
-  },
   "contact": {
     "title": "LIÊN HỆ VỚI CHÚNG TÔI",
     "form": {
@@ -177,32 +171,5 @@
       "mail": "Email",
       "phone": "Điện thoại"
     }
-  },
-  "jobs": {
-    "title": "Tham Gia Đội Ngũ Chúng Tôi",
-    "description": "Sản phẩm xuất sắc cần những con người xuất sắc. Đội ngũ tiên phong của chúng tôi đang tìm kiếm thành viên mới để tham gia.",
-    "positions": {
-      "blockchain": {
-        "title": "Lập Trình Viên Blockchain",
-        "type": "Toàn thời gian",
-        "location": "Hà Nội, Việt Nam",
-        "description": "Chúng tôi đang tìm kiếm Lập Trình Viên Blockchain có kinh nghiệm về Solidity và phát triển smart contract."
-      },
-      "frontend": {
-        "title": "Lập Trình Viên Frontend",
-        "type": "Toàn thời gian",
-        "location": "Từ xa",
-        "description": "Tìm kiếm Lập Trình Viên Frontend có kinh nghiệm về React để tham gia đội ngũ đang phát triển của chúng tôi."
-      },
-      "web3": {
-        "title": "Thiết Kế UX Web3",
-        "type": "Toàn thời gian",
-        "location": "Hà Nội, Việt Nam",
-        "description": "Tham gia đội ngũ của chúng tôi với vai trò Thiết Kế UX tập trung vào việc tạo giao diện trực quan cho các ứng dụng Web3."
-      }
-    },
-    "noPosition": "Không thấy vị trí phù hợp với kỹ năng của bạn?",
-    "contactUs": "Liên Hệ Với Chúng Tôi",
-    "apply": "Ứng Tuyển Ngay"
   }
 } 

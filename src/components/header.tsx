@@ -32,7 +32,6 @@ export default function Header() {
         { href: "/" +language + "#services", label: t("services") },
         { href: "/" +language + "#products", label: t("products") },
         // { href: "#offices", label: t("offices") },
-        { href: "/" +language + "/jobs", label: t("jobs") },
         { href: "/" +language + "#contact", label: t("contact") },
     ];
 
